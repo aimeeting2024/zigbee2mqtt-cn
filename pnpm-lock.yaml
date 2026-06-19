@@ -81,8 +81,8 @@ importers:
         specifier: 0.9.21
         version: 0.9.21
       zigbee2mqtt-windfront:
-        specifier: 2.12.0
-        version: 2.12.0
+        specifier: github:aimeeting2024/zigbee2mqtt-windfront-cn#codex/china-mobile-ops
+        version: https://codeload.github.com/aimeeting2024/zigbee2mqtt-windfront-cn/tar.gz/6b453bbce387fd298b748288abeb9f5d6cf84f08
     devDependencies:
       '@biomejs/biome':
         specifier: ^2.4.16
@@ -1474,8 +1474,9 @@ packages:
     resolution: {integrity: sha512-ClHYlG7g0v/tnIsD6kycNCi1ZEKIbQuU7lGJR3WqYcDmuqEMVcHDGbRiRwYRQcZGMxkqCf7guxNsXiKnC10+kg==}
     engines: {node: '>=20.11'}
 
-  zigbee2mqtt-windfront@2.12.0:
-    resolution: {integrity: sha512-sDwgEFlmKMj9Sl9FLhfZPkYEd7185v4spwxYXZl7gwQR3xrxeWmnLHtpQ3DfTJd2Ns6V6hzC80Sp8EmB2z8KKg==}
+  zigbee2mqtt-windfront@https://codeload.github.com/aimeeting2024/zigbee2mqtt-windfront-cn/tar.gz/6b453bbce387fd298b748288abeb9f5d6cf84f08:
+    resolution: {tarball: https://codeload.github.com/aimeeting2024/zigbee2mqtt-windfront-cn/tar.gz/6b453bbce387fd298b748288abeb9f5d6cf84f08}
+    version: 2.12.0
     engines: {node: '>=22.12.0'}
 
 snapshots:
@@ -2766,4 +2767,4 @@ snapshots:
 
   zigbee2mqtt-frontend@0.9.21: {}
 
-  zigbee2mqtt-windfront@2.12.0: {}
+  zigbee2mqtt-windfront@https://codeload.github.com/aimeeting2024/zigbee2mqtt-windfront-cn/tar.gz/6b453bbce387fd298b748288abeb9f5d6cf84f08: {}
