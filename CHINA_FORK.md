@@ -53,6 +53,8 @@ Then run Zigbee2MQTT from source:
 pnpm start
 ```
 
+In this local workspace, `pnpm start` is intentionally wired to use the single runtime data directory at `../data`. Do not add a second active `configuration.yaml` under `zigbee2mqtt/data`; that directory should only keep source templates such as `configuration.example.yaml`.
+
 The runtime configuration should keep the default frontend package unless renamed:
 
 ```yaml

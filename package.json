@@ -27,7 +27,7 @@
         "build:watch": "tsc --watch",
         "check": "biome check --error-on-warnings",
         "check:w": "biome check --write",
-        "start": "node index.js",
+        "start": "node scripts/start-local-data.cjs",
         "test": "vitest run --config ./test/vitest.config.mts",
         "test:coverage": "vitest run --config ./test/vitest.config.mts --coverage",
         "test:watch": "vitest watch --config ./test/vitest.config.mts",
